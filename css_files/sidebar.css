@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+.sidebar{
+display:flex;
+flex-direction: row;
+justify-content: center;
+grid-area:sb;
+}
+.nav2{
+font-family:'Libre Baskerville', serif;
+margin-right:0;
+color:#a2510d;
+}
+.ul2, .select{
+display: inline-block;
+list-style:none;
+padding: 15px;
+cursor: pointer;
+font-family:'Libre Baskerville', serif;
+font-size:35px;
+font-weight:500;
+text-align: center;
+}
+.ul2 .select:hover{
+color:rgb(251, 250, 249);
+}
+.home_button{
+text-decoration: none;
+color:#a2510d;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+.content{
+display:flex;
+grid-area:ct;
+justify-content: center;
+}
+.box{
+border-radius:20px;
+width:100%;
+margin:15px;
+background-color:#814720ba;
+padding:5px 20px 50px 40px;
+}
+.blogpic{
+width:100%;
+height:auto;
+margin-top:10px;
+}
+.click{
+color:goldenrod;
+font-family:'Libre Baskerville', serif;
+text-decoration: none;
+text-align: center;
+}
+a{
+text-decoration: none;
+color:goldenrod;
+}
+.click:hover{
+color:rgb(251, 250, 249);
+}
+.caption{
+text-align: center;
+color:rgba(218, 165, 32, 0.811);
+margin-bottom: 15px;
+}
+.boxtext{
+margin:0;
+color:goldenrod;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.continue{
+margin:0;
+border:none;
+/* background-color: rgba(147, 100, 19, 0.751); */background-color: #5e2f10;
+border-radius: 35px;
+color:goldenrod;
+padding: 10px 15px;
+font-family:'Libre Baskerville', serif;
+}
+.bolded{
+margin: 20px 0px;
+font-family:Georgia, 'Times New Roman', Times, serif;
+color:goldenrod
+}
+u, .continue{
+cursor: pointer;
+}
+.continue:hover{
+color:rgba(218, 165, 32, 0.655);
+}

@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+.aboutme{
+display: inline-flex;
+flex-direction: column;
+justify-content: space-between;
+text-align:center;
+padding:30px;
+background-color:cadetblue;
+border-radius:30px;
+font-family: 'Dancing Script', cursive;
+color:rgb(0, 0, 0);
+max-height:920px;
+}
+#avatar{
+width:75%;
+height:auto;
+border-radius:200px;
+margin: 15px auto;
+}
+.me .info{
+list-style: none;
+font-size:19pt;
+text-align: left;
+}
+span{
+font-size:20pt;
+font-weight:bold;
+color:rgb(0, 0, 0);
+}
+#bio{
+font-size:14pt;
+}
+#ai{
+font-size:25pt;
+text-align: center;
+}
+.icons .i {
+list-style: none;
+display: flex;
+justify-content:space-evenly;
+justify-content: center;
+margin:10px 0 0 15px;
+}
+.i .fa-brands{
+color: rgb(218, 165, 32);
+background-color: antiquewhite;
+padding:10px;
+border-radius: 40px;
+cursor: pointer;
+margin-right:20px;
+width:50px;
+}
+.differentcolor{
+background-color: antiquewhite;
+padding:10px;
+border-radius: 30px;
+}
